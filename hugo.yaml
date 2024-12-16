@@ -1,0 +1,30 @@
+baseURL: https://stories.wigmo.dev
+languageCode: en-us
+title: stories.wigmo.dev
+theme: 'PaperMod'
+
+outputs: 
+  home: 
+    - HTML
+    - RSS
+    - JSON
+
+menu: 
+  main: 
+    - identifiers: archive
+      name: Archives
+      url: /archives
+      weight: 10
+    - identifiers: search
+      name: Search
+      url: /search
+      weight: 20
+
+params: 
+  homeInfoParams:
+    Title: My Title
+    Content: Some inital content
+
+  defaultTheme: auto
+  ShowFullTextRSS: true
+  ShowCodeCopyButton: true
