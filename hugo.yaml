@@ -26,8 +26,8 @@ menu:
 
 params: 
   homeInfoParams:
-    Title: My Title
-    Content: Some inital content
+    Title: Thoughts on Code and Craft
+    Content: I’ve been working with iOS development for over 10 years. This is my collection of stories, ideas, and lessons about programming and software development.
 
   defaultTheme: auto
   ShowFullTextRSS: true
